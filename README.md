@@ -12,6 +12,33 @@ Related projects:
 `yarn add viking-language-dictionary-abbreviations`
 
 
+##### Usage
+
+Find abbreviations from text content:
+
+```javascript
+import { findAbbreviations }  from 'viking-language-dictionary-abbreviations'
+
+// Example content from dictionary, from definition of 'alla'
+const content = 'str m acc pl, f acc sg; wk m acc/dat/gen sg, f acc sg, n all sg of allr';
+
+// Returns map of abbreviations to meanings.
+const result = findAbbreviations(content);
+
+console.log(result);
+// acc => accusative
+// dat => dative
+// f   => feminine
+// gen => genitive
+// m   => masculine
+// n   => neuter
+// pl  => plural
+// sg  => singular
+// str => strong (adj or verb)
+// wk  => weak (adjective or verb)
+
+```
+
 
 ### About "Viking Language"
 
