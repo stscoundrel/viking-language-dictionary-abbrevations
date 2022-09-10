@@ -1,6 +1,6 @@
 {
   "name": "viking-language-dictionary-abbreviations",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Map abbreviations to full length words from Viking Language dictionary",
   "repository": "https://github.com/stscoundrel/viking-language-dictionary-abbrevations.git",
   "author": "stscoundrel <silvennoinen.sampo@gmail.com>",
